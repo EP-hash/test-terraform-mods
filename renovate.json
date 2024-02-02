@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "ignorePaths": ["**/terraform/**"],
+  "enabledManagers": ["terraform"],
+  "packageRules": [
+	{
+	  "paths": ["^modules/**"],
+	  "matchDatasources": ["github-releases", "terraform-module", "terraform-provider", "bitbucket-tags"],
+	  "matchUpdateTypes": ["major", "minor", "patch"]
+      "registryUrls": [""]
+	}
+  ]
+}
+

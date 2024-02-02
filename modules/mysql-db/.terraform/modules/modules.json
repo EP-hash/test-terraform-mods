@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"cloudsql","Source":"registry.terraform.io/GoogleCloudPlatform/sql-db/google//modules/mysql","Version":"17.1.0","Dir":".terraform/modules/cloudsql/modules/mysql"}]}
