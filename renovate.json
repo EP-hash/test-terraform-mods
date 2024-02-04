@@ -1,14 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
-  "ignorePaths": ["**/terraform/**"],
+  "ignorePaths": ["**/.terraform/**"],
   "enabledManagers": ["terraform"],
   "packageRules": [
 	{
-	  "paths": ["^modules/**"],
 	  "matchDatasources": ["github-releases", "terraform-module", "terraform-provider", "bitbucket-tags"],
-	  "matchUpdateTypes": ["major", "minor", "patch"]
-      "registryUrls": [""]
+	  "matchUpdateTypes": ["major", "minor", "patch"],
+      "registryUrls": ["https://github.com/EP-hash/test-terraform-mods"]
 	}
   ]
 }
