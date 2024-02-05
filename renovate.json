@@ -5,9 +5,9 @@
   "enabledManagers": ["terraform"],
   "packageRules": [
 	{
+      "paths": ["^modules/**"],
 	  "matchDatasources": ["github-releases", "terraform-module", "terraform-provider", "bitbucket-tags"],
-	  "matchUpdateTypes": ["major", "minor", "patch"],
-      "registryUrls": ["https://github.com/EP-hash/test-terraform-mods"]
+	  "matchUpdateTypes": ["major", "minor", "patch"]
 	}
   ]
 }
