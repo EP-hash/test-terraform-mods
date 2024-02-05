@@ -6,7 +6,7 @@
   "packageRules": [
 	{
       "paths": ["^modules/**"],
-	  "matchDatasources": ["github-releases", "terraform-module", "terraform-provider", "bitbucket-tags"],
+	  "matchDatasources": ["terraform-module", "terraform-provider"],
 	  "matchUpdateTypes": ["major", "minor", "patch"]
 	}
   ]
